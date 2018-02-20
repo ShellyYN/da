@@ -4,7 +4,7 @@
 
 import pandas as pd
 
-datafile= '../data/air_data.csv' #客户原始数据,第一行为属性标签
+datafile= '../data/user_data.csv' #客户原始数据,第一行为属性标签
 resultfile = '../tmp/explore.xls' #数据探索结果表
 
 data = pd.read_csv(datafile, encoding = 'utf-8') #读取原始数据，指定UTF-8编码（需要用文本编辑器将数据装换为UTF-8编码）
